@@ -29,17 +29,17 @@ For example:
     enable = true;
     plugins = [
       {
-          name = "zsh-pipr";
-          file = "pipr.plugin.zsh";
-          src = pkgs.fetchFromGitHub {
-            owner = "koalagang";
-            repo = "zsh-pipr";
-            rev = "62e4a240d4354ed90071d7007896efc15a2381db";
-            hash = "sha256-zxu/uk/iL5jPHilnvhB647+2f4kC8KpAKDbvJPimy/0=";
-          };
-        }
-      ];
-    };
+        name = "zsh-pipr";
+        file = "pipr.plugin.zsh";
+        src = pkgs.fetchFromGitHub {
+          owner = "koalagang";
+          repo = "zsh-pipr";
+          rev = "62e4a240d4354ed90071d7007896efc15a2381db";
+          hash = "sha256-zxu/uk/iL5jPHilnvhB647+2f4kC8KpAKDbvJPimy/0=";
+        };
+      }
+    ];
+  };
 }
 ```
 
